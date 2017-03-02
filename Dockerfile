@@ -2,7 +2,6 @@
 FROM ubuntu
 
 
-
 # Install wger & JRE
 RUN apt-get clean && \
 	apt-get update && \
