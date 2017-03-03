@@ -27,13 +27,11 @@ RUN   mkdir /jmeter \
 	  && mkdir /jmeter-plugins \
 	  && cd /jmeter-plugins/ \
 	  && wget https://jmeter-plugins.org/downloads/file/JMeterPlugins-ExtrasLibs-1.4.0.zip \
-	  && unzip -o JMeterPlugins-ExtrasLibs-1.4.0.zip -d /jmeter/apache-jmeter-3.1/
+	  && unzip -o JMeterPlugins-ExtrasLibs-1.4.0.zip -d /jmeter/apache-jmeter-3.1/ \
 	  && wget https://jmeter-plugins.org/downloads/file/ServerAgent-2.2.1.zip \
-	  && unzip -o ServerAgent-2.2.1.zip -d /jmeter/apache-jmeter-3.1/
-	  && wget https://jmeter-plugins.org/files/packages/jpgc-json-2.1.zip \
-	  && unzip -o jpgc-json-2.1.zip -d /jmeter/apache-jmeter-3.1/
+	  && unzip -o ServerAgent-2.2.1.zip -d /jmeter/apache-jmeter-3.1/ \
 	  && wget -q http://jmeter-plugins.org/downloads/file/JMeterPlugins-Standard-1.4.0.zip \
-	  && unzip -o JMeterPlugins-Standard-$PLUGINS_VERSION.zip -d /jmeter/apache-jmeter-3.1/
+	  && unzip -o JMeterPlugins-Standard-$PLUGINS_VERSION.zip -d /jmeter/apache-jmeter-3.1/ \
 	  && rm *.zip
 	  
 
