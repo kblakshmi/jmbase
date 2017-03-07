@@ -32,7 +32,7 @@ RUN   mkdir /jmeter \
 	  && wget https://jmeter-plugins.org/downloads/file/ServerAgent-2.2.1.zip \ 
 	  && unzip -o ServerAgent-2.2.1.zip -d /jmeter/apache-jmeter-2.13/ \
 	  && wget -q http://jmeter-plugins.org/downloads/file/JMeterPlugins-Standard-1.4.0.zip \
-	  && unzip -o JMeterPlugins-Standard-$PLUGINS_VERSION.zip -d /jmeter/apache-jmeter-2.13/ \
+	  && unzip -o JMeterPlugins-Standard-1.4.0.zip -d /jmeter/apache-jmeter-2.13/ \
 	  && rm *.zip
 	  
 
